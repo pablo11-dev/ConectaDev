@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConectaDev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="log">
+                <img src="./images/logo.png" alt="logo" class="logo">
+                ConectaDev
+            </h2>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Search for creators, inspirations, and projects">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Criar</label>
+                <div class="profile-photo">
+                    <img src="./images/profile-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+        <div class="container">
+
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.jpg" alt="">
+                    </div>
+                    <div class="handle">
+                        <h4>ViniciusDev</h4>
+                        <p class="text-muted">
+                            @ViniDev22
+                        </p>
+                    </div>
+                </a>
+
+                <div class="sidebar">
+                    <a class="menu-item active" >
+                        <span><i class="uil uil-home"></i></span><h3>Home</h3>
+                    </a>
+                </div>
+                <span for="create-post" class="btn btn-primary">Criar Post</span>
+            </div>
+
+            <div class="middle">
+                
+                <form class="create-post">
+                    <div class="profile-photo"></div>
+                    <input type="text" placeholder="What's on your mind, Diana ?" id="create-post">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+
+                
+                <div class="feeds"> 
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-12.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Senhor Antônio</h3>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-1.jpg" alt="">
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span class="like-button"><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-4.jpg" alt=""></span>
+                            <span><img src="./images/profile-15.jpg" alt=""></span>
+                            <p>Curtido por <b>GabrielDev</b> e <b>132.000 outros</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b> Senhor Antônio</b> Hoje a viagem de caminhão pocou hein 😎🚚🚚 <span class="harsh-tag">#lifestyle</span></p>
+                        </div>
+                        <div class="comments text-muted">Veja todos os 75 comentários</div>
+                    </div>
+                    </div>
+                </div>  
+                    </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
